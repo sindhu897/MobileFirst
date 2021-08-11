@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.bg-clr{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.login{
+  position: absolute;
+    top: -28px;
+    right: 35%;
+    padding: 12px;
+    border: 1px solid lightgrey;
+    background-color: cadetblue;
+    border-radius: 50%;
+    color: white;
+}
+.margin-card{
+  margin-top: 8rem!important;
+  width: 30%;
 }
 
-.App-link {
-  color: #61dafb;
+.pointer {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-clr{
+  background-color: cadetblue!important;
+  color: white!important;
+  border: 1px solid cadetblue!important;
+  font-size: 15px!important;
+}
+
+.login-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Arial", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: grey;
+  padding: 10px;
+  font-size: 1.1em;
+}
+.login-clr {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.bg-nav{
+  background: linear-gradient(to right, #3ca55c, #b5ac49) !important;
+
+}
+
+.bg-white{
+  box-shadow: 5px 5px 10px cadetblue;
+}
+
+.nav-link{
+  padding: 20px;
+  color: white!important;
+  font-size: 18px;
+}
+
+.logout{
+  margin-left: auto!important;
+  background-color: cadetblue;
+}
+
+.label-font{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.user-font{
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: 2px px;
+  text-shadow: 5px 5px 5px darkolivegreen;
+  letter-spacing: 5px;
+}
+
+.punch-line{
+  font-family: "Gochi Hand", cursive;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px #4a1919;
 }
